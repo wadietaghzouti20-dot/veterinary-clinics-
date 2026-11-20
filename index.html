@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#123b35"><meta name="description" content="Prenez rendez-vous simplement pour votre compagnon avec RENDEVO.">
+<title>RENDEVO — Clinique vétérinaire</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#18332e;--muted:#73817c;--green:#176b56;--lime:#d9f27b;--paper:#f7f8f4;--line:#e5e9e2;--white:#fff;--red:#b54438}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:"DM Sans",sans-serif}button,input,select,textarea{font:inherit}a{color:inherit}.top{height:76px;display:flex;align-items:center;justify-content:space-between;max-width:1180px;margin:auto;padding:0 26px}.brand{display:flex;align-items:center;gap:11px;font:800 20px Manrope}.mark{width:38px;height:38px;border-radius:13px;background:var(--green);color:white;display:grid;place-items:center;font-size:21px}.top small{color:var(--muted);font-weight:600}.hero{background:#123b35;color:white;overflow:hidden;position:relative}.hero:after{content:"";position:absolute;width:430px;height:430px;border:1px solid #ffffff20;border-radius:50%;right:-100px;top:-230px;box-shadow:0 0 0 55px #ffffff08,0 0 0 110px #ffffff06}.hero-inner{max-width:1180px;margin:auto;padding:70px 26px 76px;position:relative;z-index:1}.eyebrow{color:var(--lime);font-size:12px;letter-spacing:2px;font-weight:700;text-transform:uppercase}.hero h1{font:800 clamp(38px,6vw,66px)/1.06 Manrope;letter-spacing:-2.5px;max-width:680px;margin:18px 0}.hero p{color:#d1dfd9;max-width:490px;line-height:1.7;font-size:16px}.hero-pill{display:inline-flex;align-items:center;gap:9px;border:1px solid #ffffff35;border-radius:30px;padding:10px 15px;margin-top:18px;font-size:12px;color:#e5eee9}.dot{width:7px;height:7px;background:var(--lime);border-radius:50%}.main{max-width:1180px;margin:-28px auto 0;padding:0 26px 70px;position:relative;z-index:2}.layout{display:grid;grid-template-columns:1fr 350px;gap:22px;align-items:start}.panel,.aside{background:white;border:1px solid var(--line);border-radius:20px;box-shadow:0 12px 35px #18332e0a}.panel{padding:30px}.aside{padding:25px;position:sticky;top:20px}.section-head{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:26px}.section-head h2{font:800 22px Manrope;margin:0}.step{font-size:12px;color:var(--muted);font-weight:700}.progress{height:4px;background:#edf0ea;border-radius:5px;margin:0 0 27px;overflow:hidden}.progress span{display:block;height:100%;width:25%;background:var(--green);transition:width .2s}.field{margin:20px 0}.field label{display:block;font-size:13px;font-weight:700;margin-bottom:9px}.field input,.field select,.field textarea{width:100%;border:1px solid var(--line);border-radius:11px;padding:14px 14px;background:#fff;color:var(--ink);outline:none}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--green);box-shadow:0 0 0 3px #176b5614}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}.slots{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}.slot{border:1px solid var(--line);background:white;padding:12px 5px;border-radius:10px;cursor:pointer;font-weight:700;font-size:13px;color:var(--ink)}.slot:hover,.slot.active{border-color:var(--green);background:#edf6f1;color:var(--green)}.slot:disabled{opacity:.35;cursor:not-allowed}.actions{display:flex;justify-content:space-between;gap:12px;margin-top:28px}.btn{border:0;border-radius:11px;padding:14px 20px;font-weight:700;cursor:pointer}.primary{background:var(--green);color:white}.primary:hover{background:#105441}.secondary{background:#eff2ed;color:var(--ink)}.btn:disabled{opacity:.45;cursor:not-allowed}.hint{color:var(--muted);font-size:12px;line-height:1.6}.aside h3{font:800 17px Manrope;margin:0 0 16px}.aside p{font-size:13px;color:var(--muted);line-height:1.7}.benefit{display:flex;gap:12px;margin:18px 0}.benefit-icon{width:34px;height:34px;flex:none;background:#edf6f1;border-radius:10px;display:grid;place-items:center}.benefit strong{font-size:13px;display:block;margin:2px 0 4px}.benefit span{font-size:12px;color:var(--muted);line-height:1.5}.summary{background:#f6f8f4;border-radius:13px;padding:15px;margin-top:20px}.summary div{display:flex;justify-content:space-between;gap:12px;font-size:12px;margin:9px 0}.summary span{color:var(--muted)}.summary b{text-align:right}.notice{display:none;border-radius:11px;padding:13px 15px;font-size:13px;line-height:1.5;margin:15px 0}.notice.error{display:block;background:#fff0ee;color:var(--red)}.notice.success{display:block;background:#edf7ef;color:#246344}.hidden{display:none!important}.footer{text-align:center;padding:25px;color:#87928c;font-size:12px}.footer b{color:var(--ink)}.done{text-align:center;padding:35px 10px}.check{width:58px;height:58px;border-radius:50%;background:#e8f5ed;color:#176b56;display:grid;place-items:center;font-size:27px;margin:0 auto 18px}.done h2{font:800 25px Manrope}.done p{color:var(--muted);line-height:1.7}.ref{display:inline-block;background:#f1f4ef;border-radius:9px;padding:12px 18px;font-weight:800;letter-spacing:1px;margin:12px}.api-note{font-size:11px;color:#a0aaa3;margin-top:18px}
+@media(max-width:800px){.layout{grid-template-columns:1fr}.aside{position:static;order:2}.hero-inner{padding:55px 23px 65px}.panel{padding:22px}.main{padding:0 14px 45px}.top{padding:0 18px}.slots{grid-template-columns:repeat(3,1fr)}}@media(max-width:420px){.grid2{grid-template-columns:1fr}.section-head h2{font-size:19px}.slots{grid-template-columns:repeat(3,1fr)}}
+</style></head>
+<body>
+<header class="top"><div class="brand"><div class="mark">✚</div>RENDEVO</div><small>Rendez-vous vétérinaire</small></header>
+<section class="hero"><div class="hero-inner"><div class="eyebrow">Le bien-être de vos compagnons</div><h1>Prendre soin d’eux commence ici.</h1><p>Réservez une consultation vétérinaire en quelques étapes. Choisissez le service, trouvez un créneau et envoyez votre demande en ligne.</p><div class="hero-pill"><span class="dot"></span> Réservation simple · Confirmation par e-mail</div></div></section>
+<main class="main"><div class="layout"><section class="panel">
+<div id="booking">
+<div class="section-head"><h2 id="stepTitle">Choisir un service</h2><span class="step" id="stepCount">ÉTAPE 1 SUR 4</span></div><div class="progress"><span id="progressBar"></span></div>
+<div id="notice" class="notice"></div>
+<div id="step1">
+<div class="field"><label for="service">Quel service souhaitez-vous ?</label><select id="service"><option value="">Chargement des services…</option></select></div>
+<div class="field"><label for="animalType">Type d’animal</label><select id="animalType"><option value="">Sélectionner</option><option>Chien</option><option>Chat</option><option>Oiseau</option><option>Lapin</option><option>Rongeur</option><option>Autre</option></select></div>
+<div class="field"><label for="petName">Nom de votre compagnon</label><input id="petName" placeholder="Ex. Milo" maxlength="60"></div>
+</div>
+<div id="step2" class="hidden"><div class="field"><label for="date">Choisissez une date</label><input type="date" id="date"></div><div class="field"><label>Créneaux disponibles</label><div id="slots" class="slots"><span class="hint">Choisissez une date pour voir les disponibilités.</span></div></div><p class="hint">Les horaires affichés dépendent des disponibilités de la clinique.</p></div>
+<div id="step3" class="hidden">
+<div class="grid2"><div class="field"><label for="owner">Nom du propriétaire</label><input id="owner" autocomplete="name" maxlength="100" placeholder="Votre nom"></div><div class="field"><label for="phone">Téléphone</label><input id="phone" type="tel" autocomplete="tel" maxlength="30" placeholder="05 / 06 / 07…"></div></div>
+<div class="field"><label for="email">Adresse e-mail</label><input id="email" type="email" autocomplete="email" placeholder="vous@exemple.com" maxlength="120"></div>
+<div class="grid2"><div class="field"><label for="breed">Race (facultatif)</label><input id="breed" maxlength="80" placeholder="Ex. Berger allemand"></div><div class="field"><label for="age">Âge (facultatif)</label><input id="age" maxlength="30" placeholder="Ex. 3 ans"></div></div>
+<div class="field"><label for="notes">Informations utiles (facultatif)</label><textarea id="notes" rows="3" maxlength="500" placeholder="Motif de la visite, symptômes à signaler…"></textarea></div>
+</div>
+<div id="step4" class="hidden"><h3 style="font:800 17px Manrope">Vérifiez votre demande</h3><div class="summary" id="review"></div><p class="hint">En envoyant cette demande, vous confirmez que les informations saisies sont exactes. La clinique pourra vous contacter si nécessaire.</p></div>
+<div class="actions"><button id="back" class="btn secondary hidden" type="button">Retour</button><button id="next" class="btn primary" type="button">Continuer →</button></div>
+</div>
+<div id="complete" class="done hidden"><div class="check">✓</div><h2>Demande enregistrée</h2><p id="doneText">Votre demande a bien été transmise.</p><div class="ref" id="reference"></div><p class="hint">Conservez votre référence. La clinique pourra vous confirmer les détails du rendez-vous.</p><button class="btn secondary" onclick="location.reload()">Nouvelle réservation</button></div>
+</section>
+<aside class="aside"><h3>Votre compagnon entre de bonnes mains</h3><p>Un parcours de réservation clair pour vous aider à organiser la prochaine visite de votre animal.</p>
+<div class="benefit"><div class="benefit-icon">♡</div><div><strong>Simple et rapide</strong><span>Envoyez votre demande en quelques étapes.</span></div></div>
+<div class="benefit"><div class="benefit-icon">◷</div><div><strong>Créneaux disponibles</strong><span>Consultez les horaires proposés par la clinique.</span></div></div>
+<div class="benefit"><div class="benefit-icon">✉</div><div><strong>Suivi par e-mail</strong><span>Recevez les informations relatives à votre demande.</span></div></div>
+<div class="api-note">Service de réservation propulsé par RENDEVO.</div></aside></div></main>
+<footer class="footer">Une solution <b>RENDEVO</b> · © <span id="year"></span></footer>
+<script>
+const API_URL = "PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE";
+let services=[],step=1,selectedTime="";
+const $=id=>document.getElementById(id);
+$("year").textContent=new Date().getFullYear();
+const today=new Date();$("date").min=[today.getFullYear(),String(today.getMonth()+1).padStart(2,"0"),String(today.getDate()).padStart(2,"0")].join("-");
+function showNotice(message,type="error"){$("notice").className="notice "+type;$("notice").textContent=message}
+function clearNotice(){$("notice").className="notice";$("notice").textContent=""}
+async function api(params){
+ if(API_URL.includes("PASTE_YOUR"))throw new Error("Le lien API Google Apps Script doit être ajouté dans le fichier index.html.");
+ const url=API_URL+"?"+new URLSearchParams(params).toString();
+ const response=await fetch(url);if(!response.ok)throw new Error("Le serveur est momentanément indisponible.");
+ const data=await response.json();if(!data.success)throw new Error(data.error||"Une erreur est survenue.");return data;
+}
+async function loadServices(){
+ try{const data=await api({action:"services"});services=data.services||[];$("service").innerHTML='<option value="">Sélectionner un service</option>'+services.map(s=>'<option value="'+escapeHtml(s.id)+'">'+escapeHtml(s.name)+'</option>').join("")}
+ catch(e){$("service").innerHTML='<option value="">Configuration en attente</option>';showNotice(e.message)}
+}
+function escapeHtml(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function setStep(n){step=n;[1,2,3,4].forEach(i=>$("step"+i).classList.toggle("hidden",i!==n));$("stepCount").textContent="ÉTAPE "+n+" SUR 4";$("progressBar").style.width=(n*25)+"%";$("stepTitle").textContent=["","Choisir un service","Date et horaire","Vos coordonnées","Récapitulatif"][n];$("back").classList.toggle("hidden",n===1);$("next").textContent=n===4?"Envoyer ma demande":"Continuer →";clearNotice();if(n===4)renderReview()}
+function validateStep(){
+ if(step===1){if(!$("service").value||!$("animalType").value||!$("petName").value.trim())throw Error("Complétez le service, le type d’animal et son nom.")}
+ if(step===2){if(!$("date").value||!selectedTime)throw Error("Choisissez une date et un créneau disponible.")}
+ if(step===3){if(!$("owner").value.trim()||!$("phone").value.trim()||!$("email").value.trim())throw Error("Complétez votre nom, téléphone et adresse e-mail.");if(!$("email").checkValidity())throw Error("Vérifiez votre adresse e-mail.")}
+}
+async function loadSlots(){
+ selectedTime="";$("slots").innerHTML='<span class="hint">Chargement…</span>';if(!$("date").value)return;
+ try{const data=await api({action:"availability",date:$("date").value,service:$("service").value});const slots=data.availableSlots||[];if(!slots.length){$("slots").innerHTML='<span class="hint">Aucun créneau disponible à cette date. Essayez une autre date.</span>';return}
+ $("slots").innerHTML=slots.map(t=>'<button type="button" class="slot" data-time="'+escapeHtml(t)+'">'+escapeHtml(t)+'</button>').join("");$("slots").querySelectorAll(".slot").forEach(b=>b.addEventListener("click",()=>{selectedTime=b.dataset.time;$("slots").querySelectorAll(".slot").forEach(x=>x.classList.toggle("active",x===b))}))
+ }catch(e){$("slots").innerHTML='<span class="hint">Impossible de charger les disponibilités.</span>';showNotice(e.message)}
+}
+function renderReview(){
+ const s=services.find(x=>x.id===$("service").value);
+ const items=[["Service",s?.name],["Animal",$("animalType").value],["Compagnon",$("petName").value],["Date",$("date").value],["Horaire",selectedTime],["Propriétaire",$("owner").value],["Téléphone",$("phone").value],["E-mail",$("email").value],["Race",$("breed").value||"Non renseignée"],["Âge",$("age").value||"Non renseigné"]];
+ $("review").innerHTML=items.map(([a,b])=>'<div><span>'+escapeHtml(a)+'</span><b>'+escapeHtml(b)+'</b></div>').join("");
+}
+$("date").addEventListener("change",loadSlots);$("service").addEventListener("change",()=>{if($("date").value)loadSlots()});
+$("back").addEventListener("click",()=>setStep(Math.max(1,step-1)));
+$("next").addEventListener("click",async()=>{
+ clearNotice();try{validateStep();if(step<4){setStep(step+1);return}
+ $("next").disabled=true;$("next").textContent="Envoi en cours…";
+ const result=await api({action:"book",date:$("date").value,time:selectedTime,service:$("service").value,owner:$("owner").value.trim(),email:$("email").value.trim(),phone:$("phone").value.trim(),petName:$("petName").value.trim(),animalType:$("animalType").value,breed:$("breed").value.trim(),notes:[$("age").value.trim()?"Âge: "+$("age").value.trim():"",$("notes").value.trim()].filter(Boolean).join(" | ")});
+ $("booking").classList.add("hidden");$("complete").classList.remove("hidden");$("reference").textContent=result.reference||"RENDEVO";$("doneText").textContent="Votre demande de rendez-vous pour "+$("petName").value+" a été enregistrée. Consultez votre e-mail pour les informations de confirmation.";
+ }catch(e){showNotice(e.message)}finally{$("next").disabled=false;$("next").textContent=step===4?"Envoyer ma demande":"Continuer →"}
+});
+loadServices();
+</script></body></html>
